@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "title": "会话总览",
+    "description": "从侧栏打开“会话总览”，集中浏览普通会话，按工作区、归档范围或实时状态筛选，并跳转到原聊天界面。标题、目录及会话 ID 搜索在本页完成；可选的消息内容搜索使用 DSH 现有 Host 索引。浏览不会启动代理、改写消息、归档会话或向 DSH 之外发送数据；已归档会话在本页只读。支持 DSH 0.2.2-rc.2；停用或移除不改变任何会话记录。"
+  },
+  "ui": {
+    "panel": "会话总览", "eyebrow": "工作区 / 会话目录", "subtitle": "让每段对话都有迹可循。浏览不启动任务，打开才回到聊天。",
+    "back": "返回聊天", "refresh": "刷新列表", "refreshing": "正在刷新…", "refreshCompleted": "刷新请求已完成", "refreshFailed": "刷新列表失败，现有条目可能不是最新信息。",
+    "search": "搜索会话", "searchPlaceholder": "搜索标题、目录或会话 ID", "clearSearch": "清空搜索", "searchMode": "搜索范围", "metadata": "标题与目录", "content": "同时搜索消息",
+    "searching": "正在搜索消息内容…", "searchFailed": "消息内容搜索失败，当前仅显示标题与目录匹配。", "retry": "重试", "contentUnavailable": "当前没有消息内容搜索权限。", "bounded": "消息搜索仅返回 Host 的前 {limit} 条命中，请缩小关键词范围以获得更精确的结果。",
+    "workspace": "工作区", "allWorkspaces": "全部工作区", "ungrouped": "未分组", "archiveScope": "归档范围", "activeOnly": "未归档", "includeArchived": "包含已归档", "archivedOnly": "仅已归档", "pinnedOnly": "仅置顶", "sort": "排序", "recent": "最近更新", "oldest": "最早更新", "titleSort": "按标题", "pinOrder": "置顶会话始终排在前面。",
+    "all": "全部", "running": "进行中", "waiting": "待响应", "unread": "结束待查看", "idle": "空闲", "blank": "空会话", "statusFilter": "按会话状态筛选",
+    "session": "会话", "location": "工作区", "activity": "最近活动", "open": "打开", "openSession": "打开 {title}", "details": "会话信息", "expand": "展开 {title} 的信息", "collapse": "收起 {title} 的信息", "untitled": "未命名", "newSession": "新会话", "pinned": "已置顶", "archived": "已归档", "forked": "分叉会话", "legacy": "旧版本会话格式", "unknownFormat": "无法识别会话格式",
+    "sessionId": "会话 ID", "directory": "工作目录", "parent": "来源会话", "notSet": "未设置", "archivedHint": "已归档会话在这里只读。请先从内置工作区侧栏取消归档，再打开。", "openDenied": "当前没有打开此会话的权限。", "openFailed": "打开会话失败。",
+    "loading": "正在载入会话目录…", "workspaceLoading": "正在同步工作区及归档信息…", "workspaceFailed": "工作区信息暂不可用，无法确认归档状态，暂时禁用打开操作。", "noAccess": "当前没有浏览会话目录的权限。", "empty": "还没有会话", "emptyHelp": "返回聊天，即可开始第一段对话。", "noMatches": "没有匹配的会话", "noMatchesHelp": "换一个关键词，或清空筛选条件。", "reset": "清空筛选", "results": "{count} 个会话", "range": "{total} 个会话中的 {from}–{to}", "page": "第 {page} / {pages} 页", "previous": "上一页", "next": "下一页", "readOnly": "只读总览 · 不在后台打开会话历史", "dateUnknown": "—", "updatedNote": "活动时间以最近一次接受的人工消息为准，不随工具输出跳动。", "searchResult": "消息命中", "noDirectory": "没有工作目录"
+  }
+}

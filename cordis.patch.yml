@@ -1,0 +1,4 @@
+- insert:
+    - id: simonwicre-session-view
+      name: '@simonwicre/dsh-session-view'
+      config: {}
